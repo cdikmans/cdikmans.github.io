@@ -1,6 +1,5 @@
   /* Style the general set up*/
   body {
-    margin: 0;
     font-family: sans-serif;
     font-weight: lighter;
     background-color: white;
@@ -12,33 +11,23 @@
   .topnav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
   }
 
   .header {
     background-color: white;
     color: black;
     text-align: left;
-    overflow: hidden;
     font-size: 30px;
     font-weight: lighter;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 
   .navigation {
     background-color: white;
     color: black;
     text-align: right;
-    overflow: hidden;
     font-size: 30px;
     font-weight: lighter;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 
   /* Style the introduction*/
