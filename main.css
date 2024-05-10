@@ -21,6 +21,21 @@
     padding-bottom: 5px;
   }
 
+  .header {
+    /* Styles for the header */
+    text-align: left;
+  }
+
+  .navigation-group {
+    /* Styles for the navigation links group */
+    text-align: right;
+  }
+
+  .navigation {
+    /* Styles for the individual navigation links */
+    margin-left: 20px; /* Adjust spacing between links */
+  }
+
   /* Style the introduction*/
   .introduction {
     font-weight: lighter;
