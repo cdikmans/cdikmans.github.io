@@ -2,19 +2,28 @@
   body {
     margin: 0;
     font-family: sans-serif;
+    font-weight: lighter;
+    background-color: white;
+    color: black;
     padding: 40;
   }
 
   /* Style the top navigation */
   .topnav {
     background-color: white;
+    color: black;
     overflow: hidden;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
-    color: black;
+    float: right;
     text-align: center;
   }
 
@@ -35,38 +44,6 @@
     padding-bottom: 5px;
   }
 
-  /* Style the main content area */
-  main {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 5px;
-    padding-bottom: 40px;
-  }
-
-  /* For mobile devices */
-  @media (max-width: 767px) {
-    .picture {
-      position: relative;
-    }
-
-    .description {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      padding: 20px; /* Adjust this padding to your preference */
-      background-color: rgba(255, 255, 255, 0.9);
-      opacity: 0;
-      transition: opacity 0.2s ease-out;
-      color: #9b91c1;
-      box-sizing: border-box;
-      font-weight: lighter;
-    }
-
-    .picture:active .description {
-      opacity: 1;
-    }
-  }
 
   /* style the links */
   #links {
@@ -77,8 +54,9 @@
    /* Style the footer*/
    footer {
     background-color: #fff;
-    color:  	#9b91c1;
+    color:  	black;
     font-weight: lighter;
+    font-size: 12;
   }
 
   
