@@ -69,8 +69,9 @@
   }
   
   .profile-picture {
-    width: 100px;
-    margin-right: 20px;
+    width: 100px; /* Kleinere Breite für das Bild */
+    margin-left: auto; /* Positioniert das Bild am rechten Rand */
+    margin-top: 20px; /* Abstand nach oben */
   }
 
    /* Style the footer*/
@@ -85,16 +86,6 @@
     padding-bottom: 5px;
     margin-top: auto;
   }
-
-  .profile-picture {
-    width: 100px;
-    margin-right: 20px;
-  }
-  
-  .introduction {
-    flex: 1;
-  }
-
 
   
 /* Media query for responsive design */
