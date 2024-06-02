@@ -63,6 +63,16 @@
     flex: 1;
   }
 
+  /* CSS für das Profilbild */
+  .profile-picture {
+    position: fixed; /* Das Bild wird fest an der Seite positioniert */
+    top: 0; /* Von oben ausgerichtet */
+    right: 0; /* Am rechten Rand ausgerichtet */
+    width: 200px; /* Breite des Bildes */
+    height: auto; /* Höhe automatisch anpassen */
+    margin: 20px; /* Abstand vom Rand */
+  }
+
    /* Style the footer*/
    footer {
     background-color: #fff;
