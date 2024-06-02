@@ -41,22 +41,20 @@
     margin-left: 20px; /* Adjust spacing between links */
   }
 
-  /* Style the introduction*/
   .introduction {
     font-weight: lighter;
     background-color: white;
-    color:  	black;
+    color: black;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 5px;
     padding-bottom: 5px;
     flex: 1;
-    max-width: 70%;
-    margin: auto; /* Center horizontally */
-    position: relative;
-    top: 50%; /* Shift vertically by 50% */
-    transform: translateY(-50%); /* Adjust vertically */
-  }
+    max-width: 40%;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center vertically */
+}
 
   /* style the links */
   #links {
