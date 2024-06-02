@@ -69,9 +69,9 @@
   }
   
   .profile-picture {
-    width: 100px; /* Kleinere Breite für das Bild */
-    margin-left: auto; /* Positioniert das Bild am rechten Rand */
-    margin-top: 20px; /* Abstand nach oben */
+    width: 10px; 
+    margin-right: auto; 
+    margin-top: 20px; 
   }
 
    /* Style the footer*/
