@@ -58,6 +58,11 @@
     color: black
   }
 
+  /* Style the main content area to take remaining space */
+  main {
+    flex: 1;
+  }
+
    /* Style the footer*/
    footer {
     background-color: #fff;
