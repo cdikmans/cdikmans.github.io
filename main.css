@@ -62,6 +62,10 @@
     color: black
   }
 
+  .links:hover {
+    text-decoration: underline;
+  }
+
   /* Style the main content area to take remaining space */
   main {
     flex: 1;
