@@ -72,12 +72,11 @@
     flex: 1;
   }
 
-  /* Style the footer */
+    /* Footer styles */
   footer {
     background-color: #fff;
     color: black;
     font-weight: lighter;
-    font-size: 12;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 5px;
@@ -85,33 +84,35 @@
     margin-top: auto;
   }
 
-  /* Container for footer content */
+  /* Footer container */
   .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
   }
 
-  /* Align copyright text and footer links to the left */
+  /* Copyright text */
   .footer-copyright {
+    font-size: 0.875em; /* Slightly smaller than parent element’s font size */
     margin: 0;
     text-align: left;
   }
 
+  /* Footer navigation links */
   .footer-navigation {
     display: flex;
     align-items: center;
   }
 
   .footer-link {
+    font-size: 0.875em; /* Slightly smaller than parent element’s font size */
     margin-left: 20px;
     color: #000;
     text-decoration: none;
   }
 
   .footer-link:first-child {
-    margin-left: 0; /* Remove left margin from the first link */
+    margin-left: 0;
   }
 
   .footer-link:hover {
