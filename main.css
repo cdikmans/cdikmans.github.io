@@ -72,7 +72,7 @@
     background-color: #fff;
     color:  	black;
     font-weight: lighter;
-    font-size: 8px;
+    font-size: 12px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 5px;
@@ -81,24 +81,36 @@
   }
   
   .footer-container {
-    background-color: #fff;
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f1f1f1; /* Example background color */
   }
 
-  .footer-container p {
+  .footer-copyright {
     margin: 0;
-    font-size: 8px;
+    font-size: 14px;
+    text-align: left;
   }
 
   .footer-navigation {
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
   }
 
   .footer-link {
-    margin: 0 10px;
+    margin-left: 20px;
     color: #000;
     text-decoration: none;
+  }
+
+  .footer-link:first-child {
+    margin-left: 0; /* Remove left margin from the first link */
   }
 
   .footer-link:hover {
