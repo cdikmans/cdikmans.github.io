@@ -54,7 +54,7 @@
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack items vertically */
     justify-content: center; /* Center vertically */
-}
+  }
 
   /* style the links */
   #links {
@@ -67,10 +67,10 @@
     flex: 1;
   }
 
-   /* Style the footer*/
-   footer {
+  /* Style the footer */
+  footer {
     background-color: #fff;
-    color:  	black;
+    color: black;
     font-weight: lighter;
     font-size: 12px;
     padding-left: 40px;
@@ -79,28 +79,26 @@
     padding-bottom: 5px;
     margin-top: auto;
   }
-  
+
   .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #f1f1f1; /* Example background color */
+    background-color: #fff;
   }
 
+  /* Align copyright text to the left */
   .footer-copyright {
     margin: 0;
     font-size: 14px;
     text-align: left;
   }
 
+  /* Center navigation links */
   .footer-navigation {
     display: flex;
     justify-content: center;
-    flex-grow: 1;
+    margin: 0 auto; /* This will center the nav within the available space */
   }
 
   .footer-link {
@@ -115,8 +113,7 @@
 
   .footer-link:hover {
     text-decoration: underline;
-  }
-
+}
 
 
   
