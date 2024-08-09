@@ -79,6 +79,32 @@
     padding-bottom: 5px;
     margin-top: auto;
   }
+  
+  .footer-container {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-container p {
+    margin: 0;
+    font-size: 8px;
+  }
+
+  .footer-navigation {
+    margin-top: 10px;
+  }
+
+  .footer-link {
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+
 
 
   
