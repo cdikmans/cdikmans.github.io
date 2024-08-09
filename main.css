@@ -80,6 +80,7 @@
     margin-top: auto;
   }
 
+  /* Container for footer content */
   .footer-container {
     display: flex;
     justify-content: space-between;
@@ -87,18 +88,16 @@
     background-color: #fff;
   }
 
-  /* Align copyright text to the left */
+  /* Align copyright text and footer links to the left */
   .footer-copyright {
     margin: 0;
     font-size: 14px;
     text-align: left;
   }
 
-  /* Center navigation links */
   .footer-navigation {
     display: flex;
-    justify-content: center;
-    margin: 0 auto; /* This will center the nav within the available space */
+    align-items: center;
   }
 
   .footer-link {
@@ -113,7 +112,7 @@
 
   .footer-link:hover {
     text-decoration: underline;
-}
+  }
 
 
   
