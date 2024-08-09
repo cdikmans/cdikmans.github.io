@@ -56,15 +56,16 @@
     justify-content: center; /* Center vertically */
   }
 
-  /* style the links */
+  /* Style the links */
   #links {
-    text-decoration: none; /* remove underline */
-    color: black
+    text-decoration: none; /* Remove underline by default */
+    color: black; /* Link color */
   }
 
-  .links:hover {
-    text-decoration: underline;
+  #links:hover {
+    text-decoration: underline; /* Add underline on hover */
   }
+
 
   /* Style the main content area to take remaining space */
   main {
