@@ -57,6 +57,33 @@
     justify-content: center; /* Center vertically */
   }
 
+
+    /* Add styles for profile container and picture */
+  .profile-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+    gap: 20px; /* Space between image and text */
+  }
+
+  .profile-picture {
+    border-radius: 50%; /* Makes the image circular */
+    width: 120px; /* Adjust size as needed */
+    height: 120px; /* Adjust size as needed */
+  }
+
+  .text-content {
+    max-width: 600px; /* Adjust based on your design */
+  }
+
+  /* Ensure the introduction section displays flex items correctly */
+  .introduction {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: flex-start; /* Align items at the start */
+    gap: 20px; /* Space between the profile picture and the text */
+  }
+
+
   /* Style the links */
   #links {
     text-decoration: none; /* Remove underline by default */
