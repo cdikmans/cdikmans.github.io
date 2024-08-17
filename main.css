@@ -120,6 +120,24 @@
     text-decoration: underline;
   }
 
+  /* Design the hashtags on frontpage */
+  .hashtag-container {
+    display: flex;
+    justify-content: space-between; /* Space between the two columns */
+    gap: 20px; /* Space between the columns */
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column; /* Arrange hashtags vertically */
+    gap: 10px; /* Space between each hashtag */
+  }
+
+  .column p {
+    margin: 0;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+
   /* Design the Logo on Angebot */
   .logo-container {
     display: flex;
