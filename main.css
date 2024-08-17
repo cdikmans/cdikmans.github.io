@@ -120,6 +120,19 @@
     text-decoration: underline;
   }
 
+  /* Design the Logo on Angebot */
+  .logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between logos */
+  }
+
+  .logo-container img {
+    flex: 1 1 calc(20% - 10px); /* Each logo takes up 20% of the row, minus the gap */
+    max-width: 100px; /* Maximum width of each logo */
+    height: auto; /* Keeps the aspect ratio of the logos */
+  }
+
 
   
 /* Media query for responsive design */
