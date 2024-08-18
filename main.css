@@ -154,7 +154,6 @@
     padding: 10px; /* Add some padding around the image */
     box-sizing: border-box; /* Ensure padding is included in the box size */
     max-height: 100px; /* Ensure the image fits within this height */
-    border: 1px solid #ccc; /* Optional: Add a border around each logo */
     background-color: #fff; /* Optional: Add a background color */
     margin-bottom: 60px; /* Add spacing below each logo */
   }
