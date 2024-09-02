@@ -146,10 +146,10 @@
     margin-bottom: 30px; /* Add spacing below the entire container */
   }
 
-  /* Keep the logos aligned horizontally */
+  /* Ensure logos are aligned horizontally */
   .logo-container img {
-    flex: 0 1 50%; /* Keep the original flex setting */
-    max-width: 100%; /* Ensure the image does not exceed its container */
+    flex: 0 1 auto; /* Allow the logos to size based on their content */
+    max-width: 48%; /* Adjust width to ensure they fit side by side, with some gap */
     height: auto; /* Maintain the aspect ratio of the logos */
     object-fit: contain; /* Ensure the entire logo fits within the box */
     padding: 10px; /* Add some padding around the image */
@@ -158,7 +158,6 @@
     background-color: #fff; /* Optional: Add a background color */
     margin-bottom: 0; /* Remove spacing below each logo */
   }
-
   
 /* Media query for responsive design */
 @media (max-width: 768px) {
