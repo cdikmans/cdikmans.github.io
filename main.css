@@ -159,6 +159,30 @@
     margin-bottom: 0; /* Remove spacing below each logo */
   }
   
+
+  .intro-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap: 60px; /* Space between the image and text */
+  }
+
+  .profile-image {
+      width: 300px; /* Adjust the width for the square */
+      height: 300px; /* Same height for a square */
+      object-fit: cover; /* Ensure the image covers the space without distortion */
+      border-radius: 0; /* No rounded corners, perfect square */
+      margin-top: 65px; 
+  }
+
+  .intro-text {
+      flex: 1; /* Allows the text to take the remaining space */
+  }
+
+  .introduction p {
+      line-height: 1.6; /* Improve readability */
+  }
+
+
 /* Media query for responsive design */
 @media (max-width: 768px) {
   body {
