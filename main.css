@@ -1,6 +1,6 @@
   /* Style the general set up*/
   body {
-    font-family: sans-serif;
+    font-family: "Nunito", sans-serif; /* Korrekt: font-family statt font-style */
     font-weight: lighter;
     background-color: white;
     color: black;
@@ -55,6 +55,22 @@
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack items vertically */
     justify-content: center; /* Center vertically */
+  }
+
+  h1 {
+    font-family: "Aptos Mono", monospace; /* Korrekt, sicherstellen, dass der Font existiert */
+    font-weight: lighter;
+    font-size: 20px;
+    background-color: white;
+    color: #3300FF;
+  }
+
+  h2 {
+    font-family: "Aptos Mono", monospace; /* Korrekt, sicherstellen, dass der Font existiert */
+    font-weight: lighter;
+    font-size: 15px;
+    background-color: white;
+    color: #33FF00;
   }
 
   /* Style the links */
@@ -181,6 +197,8 @@
   .introduction p {
       line-height: 1.6; /* Improve readability */
   }
+
+
 
 
 /* Media query for responsive design */
