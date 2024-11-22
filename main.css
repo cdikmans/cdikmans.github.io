@@ -1,13 +1,10 @@
-  /* Style the general set up*/
+
   body {
-    font-family: "Nunito", sans-serif; /* Korrekt: font-family statt font-style */
+    font-family: "Nunito", sans-serif;
     font-weight: lighter;
     background-color: white;
     color: black;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 5px 40px 40px 40px; 
     height: 100%;
     margin: 0;
     display: flex;
@@ -16,20 +13,17 @@
     line-height: 1.6; 
   }
 
-  /* Style the top navigation */
   .topnav {
     display: flex;
     font-size: large;
     justify-content: space-between;
     align-items: right;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 40px 40px 5px 5px; 
   }
 
   .header {
     text-align: left;
+    margin-left: 40px;
   }
 
   .navigation-group {
@@ -37,26 +31,35 @@
   }
 
   .navigation {
-    margin-left: 20px; /* Adjust spacing between links */
+    margin-left: 20px;
   }
 
   .introduction {
     font-weight: lighter;
     background-color: white;
     color: black;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    padding-bottom: 5px;
+    padding: 40px 40px 5px 40px; 
     flex: 1;
-    max-width: 70%;
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center vertically */
+    max-width: 50%; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .introduction-me {
+    font-weight: lighter;
+    background-color: white;
+    color: black;
+    padding: 40px 40px 5px 40px;
+    flex: 1;
+    max-width: 75%; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
   }
 
   h1 {
-    font-family: "Aptos Mono", monospace; /* Korrekt, sicherstellen, dass der Font existiert */
+    font-family: "Aptos Mono", monospace; 
     font-weight: lighter;
     font-size: 20px;
     background-color: white;
@@ -64,7 +67,7 @@
   }
 
   h2 {
-    font-family: "Aptos Mono", monospace; /* Korrekt, sicherstellen, dass der Font existiert */
+    font-family: "Aptos Mono", monospace; 
     font-weight: lighter;
     font-size: 15px;
     background-color: white;
@@ -72,69 +75,62 @@
   }
 
   h3 {
-    font-family: "Nunito", sans-serif; /* Korrekt, sicherstellen, dass der Font existiert */
+    font-family: "Nunito", sans-serif; 
     font-weight: lighter;
     font-size: 18px;
   }
 
+
   ul {
-    list-style-type: disc; /* Ensure bullet points are visible */
+    list-style-type: disc; 
   }
 
   li::marker {
-      color: #33ff00; /* Green color for the bullet points */
+      color: #33ff00; 
   }
 
-  /* Style the links */
+
   #links {
-    text-decoration: none; /* Remove underline by default */
-    color: black; /* Link color */
+    text-decoration: none; 
+    color: black; 
   }
 
   #links:hover {
-    text-decoration: none; /* Add underline on hover */
+    text-decoration: none; 
   }
 
 
-  /* Style the main content area to take remaining space */
   main {
     flex: 1;
   }
 
-    /* Footer styles */
   footer {
     background-color: #fff;
     color: black;
     font-weight: lighter;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 40px 40px 5px 5px; 
     margin-top: auto;
   }
 
-  /* Footer container */
   .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-  /* Copyright text */
   .footer-copyright {
-    font-size: 0.875em; /* Slightly smaller than parent element’s font size */
+    font-size: 0.875em;
     margin: 0;
     text-align: left;
   }
 
-  /* Footer navigation links */
   .footer-navigation {
     display: flex;
     align-items: center;
   }
 
   .footer-link {
-    font-size: 0.875em; /* Slightly smaller than parent element’s font size */
+    font-size: 0.875em;
     margin-left: 20px;
     color: #000;
     text-decoration: none;
@@ -148,66 +144,62 @@
     text-decoration: underline;
   }
 
-  /* Design the hashtags on frontpage */
   .hashtag-container {
     display: flex;
-    justify-content: space-between; /* Space between the two columns */
-    gap: 20px; /* Space between the columns */
+    justify-content: space-between; 
+    gap: 20px;
   }
 
   .column {
     display: flex;
-    flex-direction: column; /* Arrange hashtags vertically */
-    gap: 10px; /* Space between each hashtag */
+    flex-direction: column;
+    gap: 10px;
   }
 
   .column p {
     margin: 0;
-    font-size: 16px; /* Adjust font size as needed */
+    font-size: 16px;
   }
 
-  /* Design the Logo on Angebot */
   .logo-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px; /* Space between logos */
-    margin-bottom: 30px; /* Add spacing below the entire container */
+    gap: 5px; 
+    margin-bottom: 30px; 
   }
 
-  /* Ensure logos are aligned horizontally */
   .logo-container img {
-    flex: 0 1 auto; /* Allow the logos to size based on their content */
-    max-width: 48%; /* Adjust width to ensure they fit side by side, with some gap */
-    height: auto; /* Maintain the aspect ratio of the logos */
-    object-fit: contain; /* Ensure the entire logo fits within the box */
-    padding: 10px; /* Add some padding around the image */
-    box-sizing: border-box; /* Ensure padding is included in the box size */
-    max-height: 200px; /* Ensure the image fits within this height */
-    background-color: #fff; /* Optional: Add a background color */
-    margin-bottom: 0; /* Remove spacing below each logo */
+    flex: 0 1 auto; 
+    max-width: 48%; 
+    height: auto; 
+    object-fit: contain; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    max-height: 200px; 
+    background-color: #fff; 
+    margin-bottom: 0;
   }
-  
 
   .intro-content {
     display: flex;
-    align-items: flex-start; /* Align items to the top */
-    gap: 60px; /* Space between the image and text */
+    align-items: flex-start; 
+    gap: 60px;
   }
 
   .profile-image {
-      width: 300px; /* Adjust the width for the square */
-      height: 300px; /* Same height for a square */
-      object-fit: cover; /* Ensure the image covers the space without distortion */
-      border-radius: 0; /* No rounded corners, perfect square */
+      width: 300px; 
+      height: 300px; 
+      object-fit: cover; 
+      border: 20px solid #33FF00;
       margin-top: 65px; 
   }
 
   .intro-text {
-      flex: 1; /* Allows the text to take the remaining space */
+      flex: 1; 
   }
 
   .introduction p {
-      line-height: 1.6; /* Improve readability */
+      line-height: 1.6;
   }
 
 
