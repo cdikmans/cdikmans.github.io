@@ -19,6 +19,7 @@
   /* Style the top navigation */
   .topnav {
     display: flex;
+    font-size: large;
     justify-content: space-between;
     align-items: right;
     padding-left: 40px;
@@ -71,6 +72,12 @@
     font-size: 15px;
     background-color: white;
     color: #33FF00;
+  }
+
+  h3 {
+    font-family: "Nunito", sans-serif; /* Korrekt, sicherstellen, dass der Font existiert */
+    font-weight: lighter;
+    font-size: 18px;
   }
 
   /* Style the links */
