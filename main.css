@@ -15,7 +15,7 @@
 
   .topnav {
     display: flex;
-    font-size: large;
+    font-size: x-large;
     justify-content: space-between;
     align-items: right;
     padding: 40px 40px 5px 5px; 
@@ -71,7 +71,7 @@
     font-weight: lighter;
     font-size: 15px;
     background-color: white;
-    color: #33FF00;
+    color: #3300FF;
   }
 
   h3 {
@@ -190,7 +190,7 @@
       width: 300px; 
       height: 300px; 
       object-fit: cover; 
-      border: 20px solid #33FF00;
+      border: 5px solid #33FF00;
       margin-top: 65px; 
   }
 
