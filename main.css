@@ -86,7 +86,7 @@
   }
 
   li::marker {
-      color: #33ff00; 
+      color: #3300ff; 
   }
 
 
@@ -190,7 +190,6 @@
       width: 300px; 
       height: 300px; 
       object-fit: cover; 
-      border: 5px solid #33FF00;
       margin-top: 65px; 
   }
 
